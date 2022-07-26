@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Card(props) {
+export const Card = (props) => {
   return (
     <div className="card">
       <img src="/images/location.png" className="card__img" />
