@@ -4,7 +4,7 @@ import Card from "./component/Card";
 import data from "./data.json";
 export default function App() {
   const cards = data.map((item) => {
-    return <Card key={item.id} {...item} />;
+    return <Card {...item} />;
   });
   return (
     <>
